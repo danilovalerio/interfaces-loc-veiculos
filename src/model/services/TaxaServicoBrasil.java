@@ -1,6 +1,6 @@
 package model.services;
 
-public class TaxaServicoBrasil {
+public class TaxaServicoBrasil implements TaxaServico{
 	
 	public double taxa(double valor) {
 		

@@ -33,6 +33,7 @@ public class Programa {
 		
 		AluguelCarro ac = new AluguelCarro(dataRetirada, dataDevolucao, new Veiculo(modeloCarro));
 		
+		//new TaxaServicoBrasil é utlizado na interface TaxaServico
 		AluguelServico as = new AluguelServico(valorHora, valorDiaria, new TaxaServicoBrasil());
 		
 		as.processaFatura(ac);
